@@ -14,14 +14,19 @@ This project transforms a classic numerical method into a kitchen experiment. In
 
 By counting how many raspberries land on the cake versus the total number thrown, we can calculate the ratio of the areas and solve for Pi:
 
-$$ \frac{\text{Raspberries on Cake}}{\text{Total Raspberries}} \approx \frac{\text{Area of Circle}}{\text{Area of Square}} = \frac{\pi \times r^2}{(2r)^2} = \frac{\pi}{4} $$
+$$ 
+\frac{\text{Raspberries on Cake}}{\text{Total Raspberries}} \approx \frac{\text{Area of Circle}}{\text{Area of Square}} = \frac{\pi \times r^2}{(2r)^2} = \frac{\pi}{4} 
+$$
 
 Therefore:
-$$ \pi \approx 4 \times \left( \frac{\text{Raspberries on Cake}}{\text{Total Raspberries}} \right) $$
+
+$$
+\pi \approx 4 \times \left( \frac{\text{Raspberries on Cake}}{\text{Total Raspberries}} \right)
+$$
 
 ## Features
 
-- **Thematic Aesthetics**: A "Marble & Raspberry" color palette using custom hex codes for a warm feel.
+- **Thematic Aesthetics**: A "Marble & Raspberry" colour palette using custom hex codes for a warm feel.
 - **Dynamic Animation**: Real-time visualization of raspberries falling and the Pi estimate updating.
 - **Auto-Export**: Automatically saves the simulation as a high-quality GIF (`pi_monte_carlo.gif`).
 - **Mathematical Precision**: Uses `numpy` for efficient random sampling and vector calculations.
@@ -52,7 +57,7 @@ The script will begin "baking" the animation and save it to the current director
 
 The project uses a certain colour palette to maintain its "baking" theme.
 
-| Element | Color | Hex |
+| Element | Colour | Hex |
 | :--- | :--- | :--- |
 | **Countertop** | Marble White | `#FFF9F0` |
 | **Sponge Cake** | Papaya Whip | `#FFEFD5` |
@@ -70,4 +75,4 @@ You can adjust the "baking time" and "accuracy" in the `pi_monty.py` script by m
 
 ---
 
-*Enjoy your Pi(e)!* 🥧
+*Enjoy your Pi(e)!* 
